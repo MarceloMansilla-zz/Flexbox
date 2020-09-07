@@ -1,0 +1,212 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+}
+header {
+  font-family: "Roboto Mono", monospace;
+  font-size: 20px;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+p {
+  text-align: justify;
+}
+aside{
+    border: 1px solid;
+}
+header p {
+  background-color: #0e3259;
+}
+
+header nav {
+  position: fixed; /* Set the navbar to fixed position */
+  width: 100%; /* Full width */
+  top: 0;
+}
+header nav p {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  justify-content: space-between;
+}
+header nav p .company-phrase {
+  margin-left: 5%;
+}
+header nav p .company-name {
+  margin-left: 30%;
+}
+
+header nav ul {
+  display: flex;
+  background-color: #0a3b6d;
+}
+
+header nav ul li {
+  list-style: none;
+  padding: 10px 12px;
+}
+header nav ul li a {
+  color: aliceblue;
+}
+
+.container {
+  margin-top: 105px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.container .aside-rigth {
+  width: 20%;
+}
+.container .main {
+  width: 80%;
+}
+.container .aside-left {
+  width: 20%;
+}
+
+.company-name,
+.company-phrase {
+  color: #a68321;
+  font-family: sans-serif;
+}
+
+/*EDITING HEALTH ARTICLE*/
+.content-article-health,
+.content-article-travel,
+.content-article-sports,
+.content-article-economy {
+  display: flex;
+  flex-direction: row;
+
+  padding: 10px;
+}
+.news-health,
+.news-travel,
+.news-sports,
+.news-economy {
+  flex-direction: column;
+}
+.news-health .content-article-health,
+.news-travel .content-article-travel,
+.news-sports .content-article-sports,
+.news-economy .content-article-economy {
+  flex-direction: row;
+}
+.news-health .article-health h4,
+.news-travel .article-travel h4,
+.news-sports .article-sports h4,
+.news-economy .article-economy h4 {
+  color: black;
+  text-decoration: underline;
+}
+
+.news-health .article-health p,
+.news-travel .article-travel p,
+.news-sports .article-sports p,
+.news-economy .article-economy p {
+  color: black;
+  width: 90%;
+  margin-top: 2%;
+  padding-left: 1%;
+}
+.aside-img-health{
+    width: 60%;
+}
+.aside-img-economy {
+  width: 60%;
+}
+.aside-img-sports{
+  width: 60%;
+}
+.aside-img-travel{
+    width: 60%;
+  }
+.news-health,
+.news-travel,
+.news-sports,
+.news-economy {
+  display: flex;
+  align-items: center;
+}
+
+/*EDITING IMG ARTICLE*/
+.img-health{
+    width: 80%;
+    height: 30%;
+    box-shadow: 5px 10px #888888;  
+}
+.img-economy {
+  width: 90%;
+  height: 50%;
+  box-shadow: 5px 10px #888888;
+}
+.img-sports{
+    width: 100%;
+    height: 90%;
+    box-shadow: 5px 10px #888888;
+}
+.img-travel{
+    width: 100%;
+    height: 90%;
+    box-shadow: 5px 10px #888888;
+}
+
+.transitional{
+    background-color: #888888;
+    margin-bottom: 1rem;
+}
+
+/*EDITING FOOTER*/
+.footer {
+  background-color: #0e3259;
+  text-align: center;
+  width: 100%;
+  align-items: center;
+}
+.container-footer {
+  margin-top: 0.3rem;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.container-footer .social-networks ul {
+  display: inline-flex;
+  margin: 1rem 1rem;
+  align-items: center;
+}
+
+.container-footer .social-networks ul li a {
+  color: #ffffff;
+  margin: 0 30px 0 0;
+}
+
+.footer .container-footer .copyright {
+  display: inline;
+  letter-spacing: 0.3rem;
+}
+
+.footer .container-footer .copyright p {
+  letter-spacing: 0.1rem;
+  text-align: justify;
+  margin-top: 20px;
+  margin-left: 10%;
+  width: 80%;
+  font-size: 10px;
+  margin-bottom: 1rem;
+}
+
+.footer .container-footer .copyright p a {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
